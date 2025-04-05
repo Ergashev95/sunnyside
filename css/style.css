@@ -25,6 +25,9 @@ body {
     height: 100vh;
     background-image: url(../img/header-bg.png);
     padding-top: 26px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 .header-nav__link {
     color: #fff;
@@ -55,4 +58,21 @@ body {
 .header-nav__btn:hover {
     background-color: #78CEF5;
     color: white;
+}
+
+/* SITE-HERO */
+
+.site-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 97px;
+}
+.header-headline {
+    margin-top: 105px;
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+text-transform: uppercase;
+color: white;
 }
