@@ -1,1 +1,58 @@
 @import url(./fonts.css);
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Fraunces";
+}
+
+/* SITE-HEADER */
+.site-header {
+    height: 100vh;
+    background-image: url(../img/header-bg.png);
+    padding-top: 26px;
+}
+.header-nav__link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: "Barlow";
+    letter-spacing: -0.129px;
+}
+
+.header-nav__link:hover {
+    color: white;
+    opacity: .8;
+}
+
+.header-nav__btn {
+    padding: 15px 30px !important; 
+    display: inline-block;
+    border-radius: 28px;
+    background-color: white;
+    color: #24303E;
+    text-transform: uppercase;
+    letter-spacing: -0.107px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .4s;
+}
+.header-nav__btn:hover {
+    background-color: #78CEF5;
+    color: white;
+}
