@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+    .site-header {
+        background-image: url(../img/header-mobile.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .header-headline  {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .navbar-bars {
+        border: unset;
+    }
+    .navbar-bars__line {
+        color: white;
+    }
+}

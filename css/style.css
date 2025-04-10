@@ -26,8 +26,8 @@ body {
     background-image: url(../img/header-bg.png);
     padding-top: 26px;
     background-repeat: no-repeat;
-    width: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .header-nav__link {
     color: #fff;
